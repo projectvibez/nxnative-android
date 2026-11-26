@@ -14,6 +14,11 @@ This repository is a fork of [seedds/nxnative](https://github.com/seedds/nxnativ
 is built on [d2r-mobile](https://github.com/jhaizhou-ops/d2r-mobile) and Ryujinx's shader translator ([Acknowledgements](#acknowledgements)). This fork adds
 **Android**. Everything below the line further down is the original project's README (the iPhone and Mac side), kept as it is apart from a pointer to Android.
 
+> [!NOTE]
+> **Linux and the Steam Deck are planned, not supported yet.** The Deck is x86_64, so the games' arm64 code cannot run there natively: a Linux port goes
+> through a recompiler, like the planned Windows on x64 build. Nothing of it runs yet; the plan and a phase 0 spike (a guest arm64 function running under
+> dynarmic on x86_64 Linux) are in [docs/plan_linux_x64.md](docs/plan_linux_x64.md) and [dm/linux_x64](dm/linux_x64).
+
 > [!IMPORTANT]
 > **Bring your own game.** Nothing from any game is in this repository, and no packed game is distributed: you dump the game and the keys from **your own**
 > Switch, and the app you build for your phone is for you only. Do not share APKs packed with a game (they carry its code and files), keys or firmware, and do

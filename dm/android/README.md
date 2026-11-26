@@ -9,6 +9,8 @@ Translating shaders on the phone, at the moment a game uses them (instead of bef
 
 This host on Windows on Arm (Snapdragon laptops and tablets), reusing the Vulkan replay: [plan_windows_arm.md](../../docs/plan_windows_arm.md).
 
+A Linux on x86_64 port (desktop PCs and the Steam Deck) is planned; it recompiles the game's arm64 code with dynarmic instead of running it natively, and its phase 0 spike runs: [plan_linux_x64.md](../../docs/plan_linux_x64.md).
+
 ## Status
 
 | Part | State |
